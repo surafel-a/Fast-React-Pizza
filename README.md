@@ -1,12 +1,85 @@
-# React + Vite
+# 🍕 Fast React Pizza
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast, modern, and responsive pizza ordering web application built with **React** and **Vite**. Users can browse a dynamic menu, customize orders, manage their cart, and simulate placing an order—all with a clean, intuitive interface.
 
-Currently, two official plugins are available:
+## 🔥 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Click here to view the live site](https://s-fast-react-pizza.netlify.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 🍕 Dynamic pizza menu with customizable options
+- 🧀 Add to cart with quantity and size
+- 🛒 Cart management system
+- 📱 Responsive for all screen sizes
+- ⚡ Built with React + Vite for speed and simplicity
+- 🔄 Reusable components and clean architecture
+
+---
+
+## ⚙️ Tech Stack
+
+- **React** (with Hooks)
+- **Vite** (build tool)
+- **JavaScript (ES6+)**
+- **React Router** *(if routing is used)*
+- **CSS Modules** or **Tailwind CSS** *(whichever applies)*
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── components/     # Reusable UI components
+├── pages/          # Main pages (e.g. Menu, Cart)
+├── data/           # Static data files
+├── App.jsx         # Main App component with routes
+└── main.jsx        # React entry point
+```
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/surafel-a/Fast-React-Pizza.git
+cd Fast-React-Pizza
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Run the development server**
+
+```bash
+npm run dev
+```
+
+> Visit `http://localhost:5173` in your browser.
+
+---
+
+## 🛠 Available Scripts
+
+```bash
+npm run dev       # Start dev server
+npm run build     # Build for production
+npm run preview   # Preview production build
+```
+
+---
+
+## 🙌 Contributing
+
+Pull requests are welcome! Fork the project and open a PR for any improvements or bug fixes.
+
+---
+
